@@ -27,7 +27,7 @@ jobs:
           # Options
           user: supairish
           template: classic
-          base: header, activity, community, repositories, metadata
+          base: header, activity, community, metadata
           config_timezone: America/Phoenix
           plugin_achievements: yes
           plugin_achievements_display: detailed
