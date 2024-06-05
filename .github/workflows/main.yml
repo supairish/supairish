@@ -32,6 +32,7 @@ jobs:
           template: classic
           # default: header, activity, community, repositories, metadata
           base: header, community, metadata
+          base_hireable: yes
           config_timezone: America/Phoenix
           plugin_achievements: yes
           plugin_achievements_display: detailed
