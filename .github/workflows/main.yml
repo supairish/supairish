@@ -9,13 +9,14 @@ on:
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     # So repo environment secret gets picked up
     environment:
       name: production
     permissions:
       contents: write
     steps:
-      - uses: supairish/metrics@master
+      - uses: supairish/metrics@831d2f7da3166a6c71eaae9a1f81770dd2d29cbd # master
         with:
           # Your GitHub token
           # The following scopes are required:
