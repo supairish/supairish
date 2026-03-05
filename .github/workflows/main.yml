@@ -16,7 +16,7 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: supairish/metrics@831d2f7da3166a6c71eaae9a1f81770dd2d29cbd # master
+      - uses: supairish/metrics@fff53b2b4bf7d0a2f4bc0cb631e46efa25a2d830 # master
         with:
           # Your GitHub token
           # The following scopes are required:
