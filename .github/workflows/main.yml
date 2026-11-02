@@ -16,7 +16,7 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: supairish/metrics@19ece43258a9981deb4218a146c00a53dcc9f331 # puppeteer-25
+      - uses: supairish/metrics@19ece43258a9981deb4218a146c00a53dcc9f331 # master
         with:
           # Your GitHub token
           # The following scopes are required:
